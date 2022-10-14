@@ -18,4 +18,4 @@ with Image.open("1.jpg") as im:
         for x in range(image_grid.width):
             gpx[x, y] = ((int)(255 - 255 * norm_grid[x][y]), (int)(255 - 255 * norm_grid[x][y]), (int)(255 - 255 * norm_grid[x][y]))
     image_grid.show()
-    image_grid.save("Image_grid.jpg")
+    image_grid.save("Image_grid.png")
