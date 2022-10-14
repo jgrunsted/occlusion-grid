@@ -4,7 +4,7 @@ import numpy as np
 
 PIXELS_PER_GRID = 10
 
-with Image.open("2.jpg") as im:
+with Image.open("1.jpg") as im:
     px = im.load()
     grid = np.array([[0] * (int)(im.height / PIXELS_PER_GRID)] * (int)(im.width / PIXELS_PER_GRID))
     for y in range(im.height):
