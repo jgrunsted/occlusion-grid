@@ -1,10 +1,11 @@
 # create a black and white 2D map as an jpg
+import sys
 from PIL import Image
 import numpy as np
 
 PIXELS_PER_GRID = 10
 
-with Image.open("1.jpg") as im:
+with Image.open(sys.argv[1]) as im:
     px = im.load()
     grid = np.array([[0] * (int)(im.height / PIXELS_PER_GRID)] * (int)(im.width / PIXELS_PER_GRID))
     for y in range(im.height):
