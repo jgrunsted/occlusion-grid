@@ -1,7 +1,7 @@
 # occlusion-grid
 
 To run:
-1. Activate virtual environment with dependencies
+1. Activate virtual environment with dependencies \\
 Mac:
 ```
 source ./mac_env/bin/activate
