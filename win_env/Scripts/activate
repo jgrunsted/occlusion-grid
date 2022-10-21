@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Python Proj\occlusion grid\win_env"
+VIRTUAL_ENV="C:\Python-Proj\occlusion-grid\win_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
